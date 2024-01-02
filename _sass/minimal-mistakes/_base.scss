@@ -27,7 +27,7 @@
   h4,
   h5,
   h6 {
-    margin: 2em 0 0.5em;
+    margin: 1em 0 0.5em;
     line-height: 1.2;
     font-family: $header-font-family;
     font-weight: bold;
@@ -64,7 +64,8 @@
   }
   
   p {
-    margin-bottom: 1.3em;
+    margin-bottom: .5em;
+    margin-block-start: .5em;
   }
   
   u,
@@ -173,12 +174,12 @@
   
   ul li,
   ol li {
-    margin-bottom: 0.5em;
+    margin-bottom: 0.25em;
   }
   
   li ul,
   li ol {
-    margin-top: 0.5em;
+    margin-top: 0.25em;
   }
   
   /*
